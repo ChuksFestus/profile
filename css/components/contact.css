@@ -1,0 +1,74 @@
+.contact {
+	background: #f5f5f5;
+	padding: 20px 0;
+	& p {
+		padding: 10px 30px;
+		& a {
+			font-family: "Roboto"
+		}
+	}
+}
+
+.email {
+	width: 90%;
+	margin: 0 auto;
+
+	& .email-placeholder {
+		background: wheat;
+    	border-bottom: 1px solid #e6e6e6;
+    	min-height: 52px;
+    	border: .5px solid #e6e6e6;
+		border-radius: 5px 5px 0 0;
+
+    	& .page-icon {
+			    font: inherit;
+				margin-top: 10px;
+			    margin-left: 20px;
+
+    		}
+	}
+
+	& .email-body {
+		padding: 10px;
+		border: 1px solid #e6e6e6;
+		border-radius: 0 0 5px 5px;
+
+	}
+}
+
+.email-header {
+	border-bottom: 1px dashed #e6e6e6;
+}
+
+.email-header-line {
+	padding: 10px;
+	margin: 0;
+	border: .5px solid #e6e6e6;
+	border-bottom: none;
+	/*border-top: none;*/
+	display: flex;
+	flex-direction: column;
+	& label {
+		margin-bottom: 10px;
+	}
+
+	& input {
+		border: none;
+		/*border-bottom: 1px solid #e6e6e6;*/
+		background: transparent;
+		outline: none;
+	}
+
+	& select {
+		background: transparent;
+		border: 0;
+		outline: none;
+		align-items: center;
+    	white-space: pre;
+    	text-rendering: auto;
+	}
+
+	& p {
+		padding: 5px 0;
+	}
+}

@@ -1,0 +1,8 @@
+@import "shared/fonts.css";
+@import "shared/base.css";
+
+@import "components/navigation.css";
+@import "components/header.css";
+@import "components/about.css";
+@import "components/work.css";
+@import "components/contact.css";
